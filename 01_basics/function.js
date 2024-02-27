@@ -32,5 +32,34 @@
 //     username : "abhishek",
 //     age : 26,
 //     gender : "male"
-// });
-// //     gender : "male"
+// // });
+// // //     gender : "male"
+// const myarray = [100,330,220,2220]
+// function myarr(getarray){
+//     return getarray[2]
+
+// }
+// console.log(myarr([200,300,4000,30303,2230]));
+
+
+// let arrays = [3302,314,234,21,425,32]
+// let objectss = {
+//     name: "animesh",
+//     age: 22,
+//     gender : "male"
+// }
+// function arrayskaval(koibhiarray){
+//     return koibhiarray[2]
+// }
+// // console.log(arrayskaval(arrays));
+// console.log(arrayskaval([2000,457,456,768]))
+const infomation = {
+    names: "animesh",
+    age : 22,
+    gender : "male",
+    welcome: function (){
+        console.log(`welcome ${this.names}`);
+    }
+}
+infomation.names="ani"
+infomation.welcome()
