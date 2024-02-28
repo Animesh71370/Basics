@@ -13,16 +13,10 @@
         <div class = "day3">thursday</div>
     </div>
 </body>
-<script>
-    const baap = document.querySelector('.parent')
-    // console.log(baap.children);
-    // baap.children[1].style.color = "RED"
-    // console.log(baap.lastElementChild);
-    baap.children[1].style.color = 'red'
-    const day1 = document.querySelector('.day')
-    console.log(day1);
-    console.log(day1.parentElement);
-
-    
+<script>const parent = document.querySelector('.parent')
+console.log(parent)
+for(let i = 0;i<parent.children.length;i++){
+      console.log(parent.children[0])
+}
 </script>
 </html>
